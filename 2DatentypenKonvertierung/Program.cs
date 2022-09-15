@@ -9,8 +9,8 @@ Console.WriteLine(short.MinValue);
 
 Console.WriteLine(int.MaxValue);
 Console.WriteLine(int.MinValue);
-/*
- 32bit
+/* 
+32bit
 2147483647
 -2147483648
  */
@@ -34,7 +34,7 @@ Console.WriteLine(float.MinValue);
 Console.WriteLine(double.MaxValue);
 Console.WriteLine(double.MinValue);
 /*
- 64bit
+64bit
 1,7976931348623157E+308
 -1,7976931348623157E+308
 */
@@ -42,7 +42,7 @@ Console.WriteLine(double.MinValue);
 Console.WriteLine(decimal.MaxValue);
 Console.WriteLine(decimal.MinValue);
 /*
- 128bit
+128bit
 79228162514264337593543950335
 -79228162514264337593543950335
 */
@@ -51,22 +51,21 @@ Console.WriteLine(decimal.MinValue);
 
 string vorname = "Lukas";
 short alter = 22;
-bool frage = true;
+bool frage = false;
 
-Console.WriteLine("Ihre Antworten:");
-Console.WriteLine($"1. {vorname}\n2. {alter}\n3. {frage}");
+Console.WriteLine($"\nIhre Angaben:\n\n1. {vorname}\n2. {alter}\n3. {frage}");
 
 //Aufgabe 3
 /*
 int Dollarzahl = 36;
-char Dollar = Dollarzahl;
+char Dollar = (char)Dollarzahl;
 */
+
 //Aufgabe 4
 
-Console.WriteLine(" ");
-Console.WriteLine("Geben Sie die erste Variable ein!");
+Console.WriteLine("\nGeben Sie die erste Variable ein!");
 string v1_str = Console.ReadLine();
-
 short v1_short = Convert.ToInt16(v1_str);
 
-Console.WriteLine(v1_short);
+string v2_str = Console.ReadLine();
+double v2_double = Convert.ToDouble(v2_str);
